@@ -10,7 +10,8 @@ public class Main {
         System.out.println(large.getName());//null
         Coffee[] values=Coffee.values();
         for(Coffee coffee:values)
-            System.out.println(coffee);
+            System.out.println(coffee.getName());
+
 
 
 
